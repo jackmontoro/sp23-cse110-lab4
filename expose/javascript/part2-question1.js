@@ -1,3 +1,4 @@
+// Question 1
 function discountPrices(prices, discount) {
     var discounted = [];
     var finalPrice = 0;

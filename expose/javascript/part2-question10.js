@@ -1,4 +1,4 @@
-// Question 9
+// Question 10
 function discountPrices(prices, discount) {
     const discounted = [];
     const length = prices.length;
@@ -8,7 +8,7 @@ function discountPrices(prices, discount) {
         discounted.push(discountedPrice);
     }
 
-    console.log(i);
+    console.log(length);
 
     return discounted;
 }

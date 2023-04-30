@@ -15,3 +15,7 @@
 8. The function prints nothing because there is no console.log command in the code.
 
 9. The function returns the error: "ReferenceError: i is not defined". This is true because i is declared using the let keyword within the for loop. Therefore, it cannnot be called outside the for loop.
+
+10. The code returns "3" because the const variable length is declared within the scope of the function, outside the for loop and is never re-assigned.
+
+11. 

@@ -9,7 +9,7 @@ function discountPrices(prices, discount) {
         discounted.push(finalPrice);
     }
 
-    console.log(discountedPrice);
+    console.log(finalPrice);
 
     return discounted;
 }

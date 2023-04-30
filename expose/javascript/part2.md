@@ -30,4 +30,32 @@ D. student['Favorite Teacher'].name
 
 E. student.courseLoad[0]
 
-13. 
+13. A. '3' + 2 = '32'. JS converts 2 to a string and concatenates '2' to the end of '3' to form '32' 
+
+B. '3' - 2 = 1. JS converts '3' to a Number and subtracts 2 to yield 1.
+
+C. 3 + null = 3. JS converts null to 0 and adds three to 0 to form 3.
+
+D. '3' + null = '3null'. JS converts null to the string 'null' and concatenates 'null' to the end of '3' to get '3null'.
+
+E. true + 3 = 4. JS converts true to the number 1 to get 1 + 3 = 4.
+
+F. false + null = 0. JS converts both false and null to the number 0 to get 0 + 0 = 0.
+
+G. '3' + undefined = '3undefined'. JS converts undefined to the string 'undefined' to get '3' + 'undefined' = '3undefined'.
+
+H. '3' - undefined = 'NaN'. undefined undergoes numeric conversion to NaN and when subtracted from 3 yields NaN.
+
+14. A. '2' > 1 = true. '2' is converted to a number and the comparision 2 > 1 returns the boolean value true.
+
+B. '2' < '12' = false. Both '2' and '12' are treated like strings and the first chars are evaluated by their lexographical order in the ASCII table. 1 comes before 2, so the comparison evaluates to false.
+
+C. 2 == '2' = true. The string '2' becomes the number 2 so the comparison is true.
+
+D. 2 === '2' = false. === is the strict equality operator, so the comparison evaluates the variables without type conversion. They are different types, so the comparison is false.
+
+E. true == 2 = false. true is converted to the number 1 and 1 does not equal 2, so the comparison is false.
+
+F. true === Boolean(2) = true. The variable Boolean(2) represents the true boolean value, so the strict equality operator evaluates the statement true === true as true.
+
+15. The == operator will convert types of variables so variables of different types can be equivalent such as '1' == 1. The === operator will first check that the types are the same, and will return false if they are different. It will then check the values to ensure they are the same.

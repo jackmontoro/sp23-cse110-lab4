@@ -8,4 +8,4 @@
 
 5. The code prints nothing. This is the case because there is never a function call outside of the function definition. This means none of the code in discountPrices ever runs.
 
-6. 
+6. The code causes the error: "ReferenceError: discountedPrice is not defined." The let keyword does not allow the variable to be called outside of the for loop where it is declared.

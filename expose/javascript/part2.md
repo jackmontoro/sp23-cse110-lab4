@@ -12,4 +12,4 @@
 
 7. The function prints "NaN." finalCount is declared with let outside the for loop, so the console.log command can access the finalCount variable, but cannot access the value it is set to during the for loop.
 
-8. 
+8. The function prints nothing because there is no console.log command in the code.

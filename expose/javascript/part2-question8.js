@@ -1,4 +1,4 @@
-// Question 7
+// Question 8
 function discountPrices(prices, discount) {
     let discounted = [];
     let finalPrice = 0;
@@ -8,8 +8,6 @@ function discountPrices(prices, discount) {
         finalPrice = Math.round(discountedPrice * 100) / 100;
         discounted.push(finalPrice);
     }
-
-    console.log(finalPrice);
 
     return discounted;
 }

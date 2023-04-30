@@ -59,3 +59,12 @@ E. true == 2 = false. true is converted to the number 1 and 1 does not equal 2, 
 F. true === Boolean(2) = true. The variable Boolean(2) represents the true boolean value, so the strict equality operator evaluates the statement true === true as true.
 
 15. The == operator will convert types of variables so variables of different types can be equivalent such as '1' == 1. The === operator will first check that the types are the same, and will return false if they are different. It will then check the values to ensure they are the same.
+
+16. 
+'''
+for(const property in statistics){
+    if (property[0] == 'r' || statistics[property] % 2 == 1){
+        console.log(statistics[property]);
+    }
+}
+'''

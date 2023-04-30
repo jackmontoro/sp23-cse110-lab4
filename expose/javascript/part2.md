@@ -18,4 +18,6 @@
 
 10. The code returns "3" because the const variable length is declared within the scope of the function, outside the for loop and is never re-assigned.
 
-11. 
+11. The code prints nothing. The const variable is discountedPrice is declared and assigned each iteration of the for loop and never re-assigned within the iteration, so there is no error.
+
+12. 

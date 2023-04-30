@@ -6,4 +6,6 @@
 
 4. The code prints nothing. This is true because there is no console.log statement and return values are not automatically printed in JS.
 
-5. 
+5. The code prints nothing. This is the case because there is never a function call outside of the function definition. This means none of the code in discountPrices ever runs.
+
+6. 

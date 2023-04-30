@@ -73,4 +73,4 @@ for(const property in statistics){
 
 18. In part2-question18.js
 
-19. 
+19. The code outputs the sequence: 1\n 4\n 3\n 2\n. This is true because the non-setTimeout commands are run first, then the line 4 setTimeout command with no delay, then the final setTimeout command with 1 second delay.

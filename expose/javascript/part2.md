@@ -71,3 +71,6 @@ for(const property in statistics){
 
 17. The function call above returns the array [ 2, 4, 6 ]. The doSomething function is passed as an argument in the function call on line 13, so in each iteration of the for loop in the modifyArray call, the return value of the doSomething function is pushed to the return array.
 
+18. In part2-question18.js
+
+19. 

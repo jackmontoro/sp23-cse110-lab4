@@ -20,4 +20,14 @@
 
 11. The code prints nothing. The const variable is discountedPrice is declared and assigned each iteration of the for loop and never re-assigned within the iteration, so there is no error.
 
-12. 
+12. A. student.name
+
+B. student['Grad Year']
+
+C. student.greeting()
+
+D. student['Favorite Teacher'].name
+
+E. student.courseLoad[0]
+
+13. 
